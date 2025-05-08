@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <button onclick="lancerQuiz()">Démarrer le Quiz</button>
+
+  <script>
+    const QUESTIONS = [
+      ["Quelle est la capitale de la France ?", "Paris"],
+      ["Combien font 2 + 2 ?", "4"],
+      ["Quelle est la couleur du ciel en journée ?", "bleu"]
+    ];
+
+    function lancerQuiz() {
+      let score = 0;
+
+      for (let i = 0; i < QUESTIONS.length; i++) {
+        let reponse = prompt(QUESTIONS[i][0]);
+        if (reponse.toLowerCase() === QUESTIONS[i][1].toLowerCase()) {
+          alert("Réponse est correcte !");
+          score++;
+        } else {
+          alert("Réponse est faux !");
+        }
+      }
+
+      alert("Vous avez répondu correctement à " + score + " question(s) sur " + QUESTIONS.length);
+    }
+  </script>
+</body>
+</html>
