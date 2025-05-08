@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+</head>
+<body>
+    <script>
+        let nombreX= Math.floor(Math.random() * 10) + 1;
+        let A;
+        let conteur = 0;
+      
+        do {
+          A = parseInt(prompt("siasier le nombre entre 1 et 10 :"));
+          conteur++;
+          if (A < nombreX) {
+            alert("nombre est petit !");
+          } else if (A > nombreX) {
+            alert("nombre est grand !");
+          }
+        } while (A !== nombreX);
+      
+        alert("Bravo ! Vous avez trouvé en " + conteur + " tentative(s).");
+      </script>
+</body>
+</html>
