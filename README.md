@@ -5,3 +5,6 @@ EX1
 EX2
 
 ![11](https://github.com/user-attachments/assets/a0801984-0981-43a3-a06e-40f434d521be)
+EX3
+
+![13](https://github.com/user-attachments/assets/ff7b785d-194c-4035-8a41-2ecd6ee1e1d1)
